@@ -42,7 +42,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <NavLink className="btn btn-accent">Login</NavLink>
+          <NavLink to={"/LogIn"} className="btn btn-accent">Login</NavLink>
         </div>
       </div>
     </div>
