@@ -10,7 +10,7 @@ const Home = () => {
       <Navbar />
       <Banner />
       {/* card container */}
-      <div className="container grid col-span-12 mx-auto my-10">
+      <div className="container grid grid-cols-12 gap-10 mx-auto my-10">
         <Card />
         <Card />
         <Card />

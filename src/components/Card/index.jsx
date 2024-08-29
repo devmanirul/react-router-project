@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const Card = () => {
   return (
-    <div className="card grid col-span-4 bg-base-100 w-96 shadow-xl">
+    <div className="card grid col-span-4 w-full bg-base-100 shadow-xl">
       <figure>
         <img
           src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -18,6 +18,6 @@ const Card = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Card;
