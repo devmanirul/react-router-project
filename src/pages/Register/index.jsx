@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Register = () => {
   return (
@@ -49,6 +49,6 @@ const Register = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Register;
