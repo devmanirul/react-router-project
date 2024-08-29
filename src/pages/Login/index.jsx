@@ -1,12 +1,13 @@
 import React from "react";
 
-const LogIn = () => {
+import { Link } from "react-router-dom";
+
+function LogIn() {
   return (
     <div className="hero bg-base-200 min-h-screen">
-      <div className="hero-content flex-col">
+      <div className="hero-content flex-col w-[550px]">
         <div className="text-center lg:text-left">
-          <h1 className="text-5xl font-bold">Login now!</h1>
-          <p className="py-6">Provident cupiditate voluptatem et in.</p>
+          <h1 className="text-5xl font-bold mb-10">Login now!</h1>
         </div>
         <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
           <form className="card-body">
@@ -42,9 +43,20 @@ const LogIn = () => {
             </div>
           </form>
         </div>
+        <div className="">
+          <p className="">
+            If you are no account ? 
+            <Link
+              to={"/Register"}
+              className="cursor-pointer font-bold text-primary underline"
+            >
+              Register
+            </Link>
+          </p>
+        </div>
       </div>
     </div>
   );
-};
+}
 
 export default LogIn;
