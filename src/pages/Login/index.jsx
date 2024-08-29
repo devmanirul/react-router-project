@@ -45,7 +45,7 @@ function LogIn() {
         </div>
         <div className="">
           <p className="">
-            If you are no account ? 
+            If you are no account ?
             <Link
               to={"/Register"}
               className="cursor-pointer font-bold text-primary underline"
