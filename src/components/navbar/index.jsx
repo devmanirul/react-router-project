@@ -36,13 +36,21 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-5">
-            <NavLink className={"btn btn-neutral"} to={"/"}>Home</NavLink>
-            <NavLink className={"btn btn-neutral"} to={"/about"}>About</NavLink>
-            <NavLink className={"btn btn-neutral"} to={"/contact"}>Contact</NavLink>
+            <NavLink className={"btn btn-neutral"} to={"/"}>
+              Home
+            </NavLink>
+            <NavLink className={"btn btn-neutral"} to={"/about"}>
+              About
+            </NavLink>
+            <NavLink className={"btn btn-neutral"} to={"/contact"}>
+              Contact
+            </NavLink>
           </ul>
         </div>
         <div className="navbar-end">
-          <NavLink to={"/LogIn"} className="btn btn-accent">Login</NavLink>
+          <NavLink to={"/LogIn"} className="btn btn-accent">
+            Login
+          </NavLink>
         </div>
       </div>
     </div>

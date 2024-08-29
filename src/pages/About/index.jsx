@@ -1,7 +1,7 @@
-import React from 'react'
-import Navbar from '../../components/navbar';
-import Slider from '../../components/Slider';
-import Footer from '../../components/Footer';
+import React from "react";
+import Navbar from "../../components/navbar";
+import Slider from "../../components/Slider";
+import Footer from "../../components/Footer";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
       <Slider />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default About;

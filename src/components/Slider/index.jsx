@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Slider = () => {
   return (
@@ -61,6 +61,6 @@ const Slider = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Slider
+export default Slider;
